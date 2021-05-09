@@ -7,7 +7,7 @@ A tool for refactoring [Node.js codebase](https://github.com/nodejs/node)
 ```sh
 npm install
 npm run build
-npx jscodeshift -t lib/validatior.js /nodejs/source/code/path
+npx jscodeshift -t lib/validatior.js {your/nodejs/source/path}/lib/**/*.js
 ```
 
 ## Roadmap
