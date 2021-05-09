@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-codemod",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "repository": "git@github.com:pd4d10/nodejs-codemod.git",
+  "author": "Rongjian Zhang <pd4d10@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "rm -rf lib && tsc"
+  },
+  "dependencies": {
+    "@types/jscodeshift": "^0.11.0",
+    "jscodeshift": "^0.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
